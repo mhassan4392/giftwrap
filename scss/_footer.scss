@@ -1,0 +1,126 @@
+// bottom footer of the document
+// bottom footer of the document
+#main-footer{
+    position: relative;
+    background: #f2f2f2; //url('../images/footer-bg.jpg');
+    color: $primary-clr;
+    
+
+    .footer-list-header{
+        margin-bottom: 20px;
+    }
+    .footer-list{
+        li{
+            list-style-type: none;
+            line-height: 2.2rem;
+
+            a{
+                color: $primary-clr;
+                font-size: 1.1rem;
+                @include easeOut(0.5s);
+
+                &:hover{
+                    color: $secondary-clr;
+                    text-decoration: none;
+                    @include easeOut(0.5s);
+                }
+            }
+        }
+
+        
+    }
+    .footer-address{
+        li{
+            &:hover{
+                .fa{
+                    color: $secondary-clr;
+                    @include easeOut(0.5s);
+                }
+
+                @include easeOut(0.5s);
+            }
+
+            .fa{
+                margin-right: 10px;
+            }
+        }
+    }
+
+
+
+    .bottom-footer{
+        padding: 50px 0;
+        
+
+        a{
+            text-align: center;
+        }
+
+        .fa{
+            padding: 7px;
+            border-radius: 100px;
+            color: white;
+            width: 30px;
+            margin: 0 5px;
+            background: white;
+
+            
+        }
+
+
+
+        .footer-icons{
+            text-align: right;
+            .fa{
+                @include easeOut(0.5s);
+            }
+            .fa-facebook{
+                color: #3B5998 !important;
+                &:hover{
+                    background:#3B5998 !important;
+                    color: white !important;
+                    @include easeOut(0.5s);
+                }
+            }
+            
+            .fa-twitter{
+                color:#1DA1F2 !important;
+                &:hover{
+                    background:#1DA1F2 !important;
+                    color:white !important;
+                    @include easeOut(0.5s);
+                }
+            }
+            
+            .fa-instagram{
+                color:#fb3958 !important;
+                &:hover{
+                    background:#fb3958 !important;
+                    color:white !important;
+                    @include easeOut(0.5s);
+                }
+            }
+            
+            .fa-youtube{ 
+                color: #ff0000 !important;
+                &:hover{
+                    background:#ff0000 !important;
+                    color:white !important;
+                    @include easeOut(0.5s);
+                }
+            }
+            
+            .fa-linkedin{ 
+                
+                color:#0077b5 !important;
+                &:hover{
+                    background:#0077b5 !important;
+                    color:white !important;
+                    @include easeOut(0.5s);
+                }
+            }
+            
+        }
+    }
+
+}

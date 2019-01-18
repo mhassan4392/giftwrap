@@ -1,0 +1,48 @@
+// vars
+$primary-clr : #000;
+$white-clr : #fff;
+$secondary-clr: #957b56;
+
+// set color according to bg color
+@function set-text-color($bg-color){
+    @if (lightness($bg-color) > 50 ){
+        @return #000;
+    }@else{
+        @return white;
+    }
+}
+
+// ease out transition function
+@mixin easeOut($sec) {
+    transition: all $sec ease-out;
+}
+
+// mobile responsive functions
+
+// small media query
+@mixin mediaSm {
+    @media screen and(max-width:500px) {
+        @content;     
+    }
+}
+
+// medium media query
+@mixin mediaMd {
+    @media screen and(max-width:768px) {
+        @content;        
+    }
+}
+
+// large media query
+@mixin mediaLg {
+    @media screen and(min-width:769px) {
+        @content;        
+    }
+}
+
+// Xtra large media query
+@mixin mediaXl {
+    @media screen and(min-width:1171px) {
+        @content    ;    
+    }
+}

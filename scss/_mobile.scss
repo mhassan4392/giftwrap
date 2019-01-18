@@ -1,0 +1,25 @@
+
+// medium size
+@include mediaMd{
+    .navbar-brand{
+        display: block;
+    }
+}
+
+// small size
+@include mediaSm{
+    .navbar-brand{
+        display: block;
+    }
+}
+
+// large size
+@include mediaLg{
+    .navbar-brand{
+        display: none;
+    }
+}
+
+// extra large size
+@include mediaXl{
+}
