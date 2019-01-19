@@ -6,7 +6,7 @@ header {
   height: 80vh;
   position: relative; }
   #showcase nav {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(34, 34, 34, 0.5);
     padding: 0;
     border-top: 2px solid #957b56;
     border-bottom: 8px solid #957b56; }
@@ -18,11 +18,11 @@ header {
         line-height: 86px;
         transition: all 0.8s ease-out; }
         #showcase nav .nav-item .nav-link:hover {
-          background: rgba(0, 0, 0, 0.7);
+          background: rgba(34, 34, 34, 0.7);
           color: #957b56;
           transition: all 0.8s ease-out; }
         #showcase nav .nav-item .nav-link.active {
-          background: rgba(0, 0, 0, 0.7);
+          background: rgba(34, 34, 34, 0.7);
           color: #957b56;
           transition: all 0.8s ease-out; }
     #showcase nav.not-sticky {
@@ -63,7 +63,7 @@ header {
       position: absolute;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.3); }
+      background: rgba(34, 34, 34, 0.3); }
   #showcase .swiper-button-next {
     background-image: none;
     border: 2px solid rgba(149, 123, 86, 0.4);
@@ -104,7 +104,34 @@ header {
     background: url("../images/gw-slide1.jpg") no-repeat center center;
     background-size: cover; }
   #showcase .slide-2 {
+    background: url("../images/new.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.gift-showcase .slide-1 {
+    background: url("../images/gw-slide1.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.gift-showcase .slide-2 {
     background: url("../images/gw-slide2.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.gift-showcase .slide-3 {
+    background: url("../images/gw-slide3.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.gift-showcase .slide-4 {
+    background: url("../images/gw-slide4.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.coctail-showcase .slide-1 {
+    background: url("../images/new.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.coctail-showcase .slide-2 {
+    background: url("../images/margarita.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.coctail-showcase .slide-3 {
+    background: url("../images/smoke.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.coctail-showcase .slide-4 {
+    background: url("../images/smaller-bloom-.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.contact-showcase .swiper-container {
+    background: url("../images/phone-op.jpg") no-repeat center center;
     background-size: cover; }
 
 .search-menu {
@@ -113,7 +140,7 @@ header {
   height: 100vh;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(34, 34, 34, 0.9);
   z-index: 144;
   transform: translate3d(100%, 0, 0);
   transition: all 0.5s ease-out; }
@@ -126,7 +153,7 @@ header {
       list-style-type: none;
       padding: 20px 0; }
       .search-menu .menu-ul li a {
-        color: #fff;
+        color: #ddd;
         text-decoration: none; }
         .search-menu .menu-ul li a:hover {
           color: #957b56;
@@ -175,17 +202,117 @@ header {
   background-color: #555;
   /* Add a dark-grey background on hover */ }
 
+.card {
+  background: none;
+  border: none !important; }
+
+#our-services {
+  padding-top: 100px; }
+  #our-services.front-services .card .card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover; }
+  #our-services .card {
+    background: none; }
+    #our-services .card a:hover {
+      text-decoration: none; }
+    #our-services .card h3 {
+      color: #ddd; }
+      #our-services .card h3:hover {
+        color: #957b56;
+        text-decoration: none;
+        transition: all 0.5s ease-out; }
+
+#gift-services .card {
+  background: transparent; }
+
+#coctail-services {
+  padding: 50px 0;
+  color: #222222;
+  background: #f2f2f2; }
+  #coctail-services .card {
+    background: none;
+    border: none;
+    margin-bottom: 30px; }
+
+#testimonial {
+  padding: 100px 0;
+  color: #ddd; }
+  #testimonial .testimonial-container {
+    text-align: center; }
+    #testimonial .testimonial-container .testimonial-img {
+      width: 100px;
+      margin: auto; }
+      #testimonial .testimonial-container .testimonial-img img {
+        border-radius: 50%; }
+    #testimonial .testimonial-container .testimonial-comment {
+      text-align: center;
+      padding: 20px 0;
+      width: 80%;
+      margin: auto;
+      height: 200px;
+      line-height: 1.8rem; }
+    #testimonial .testimonial-container .testimonial-bio {
+      text-align: center;
+      padding: 20px 0; }
+    #testimonial .testimonial-container .swiper-container {
+      width: 100%;
+      height: 100%; }
+
+#newsLetter {
+  position: relative;
+  color: #957b56;
+  padding: 100px 0; }
+  #newsLetter .newsletter-img-1, #newsLetter .newsletter-img-2 {
+    position: absolute; }
+  #newsLetter .newsletter-img-1 {
+    top: 30%;
+    left: 0; }
+  #newsLetter .newsletter-img-2 {
+    top: 30%;
+    right: 0; }
+  #newsLetter .subscribe-input {
+    border-radius: 100px 0 0 100px;
+    background-image: url("../images/email-logo.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 40px;
+    padding-left: 70px;
+    background-position-x: 3%; }
+  #newsLetter button {
+    border-radius: 0 100px 100px 0; }
+
+#map {
+  width: 100vw;
+  height: 80vh; }
+
+#contact #contact-form {
+  padding: 120px 0;
+  background: #222222;
+  color: white; }
+
+#contact .contact-address li {
+  list-style-type: none;
+  line-height: 30px; }
+  #contact .contact-address li:hover .fa {
+    color: #957b56;
+    transition: all 0.5s ease-out; }
+  #contact .contact-address li .fa {
+    font-size: 1.2rem;
+    transition: all 0.5s ease-out;
+    width: 20px; }
+
 #main-footer {
   position: relative;
   background: #f2f2f2;
-  color: #000; }
+  color: #222222; }
   #main-footer .footer-list-header {
     margin-bottom: 20px; }
   #main-footer .footer-list li {
     list-style-type: none;
     line-height: 2.2rem; }
     #main-footer .footer-list li a {
-      color: #000;
+      color: #222222;
       font-size: 1.1rem;
       transition: all 0.5s ease-out; }
       #main-footer .footer-list li a:hover {
@@ -198,7 +325,8 @@ header {
       color: #957b56;
       transition: all 0.5s ease-out; }
   #main-footer .footer-address li .fa {
-    margin-right: 10px; }
+    margin-right: 10px;
+    width: 20px; }
   #main-footer .bottom-footer {
     padding: 50px 0; }
     #main-footer .bottom-footer a {
@@ -263,97 +391,16 @@ header {
   box-sizing: border-box; }
 
 body {
-  background: #000;
-  color: #fff;
+  background: #222222;
+  color: #ddd;
   overflow-x: hidden;
   font-family: 'Nunito', Helvetica , Arial , sans-serif; }
-
-#our-services {
-  padding-top: 100px;
-  background: url("../images/small-section-arrow.png") no-repeat center top; }
-  #our-services .card {
-    background: none; }
-    #our-services .card .card-img-top {
-      width: 100%;
-      height: 25vw;
-      object-fit: cover; }
-    #our-services .card a:hover {
-      text-decoration: none; }
-    #our-services .card h3 {
-      color: #fff; }
-      #our-services .card h3:hover {
-        color: #957b56;
-        text-decoration: none;
-        transition: all 0.5s ease-out; }
 
 .section-title {
   padding-bottom: 20px;
   background: url("../images/section-title.png") no-repeat center bottom; }
 
-#gift-services .card {
-  background: transparent; }
-
 .nav-affix-bg {
   width: 20px;
   height: 20px;
   margin: auto; }
-
-#coctail-services {
-  padding: 50px 0;
-  color: #000;
-  background: #f2f2f2; }
-  #coctail-services .card {
-    background: none;
-    border: none;
-    margin-bottom: 30px; }
-
-#testimonial {
-  padding: 100px 0;
-  color: #fff; }
-  #testimonial .testimonial-container {
-    text-align: center; }
-    #testimonial .testimonial-container .testimonial-img {
-      width: 100px;
-      margin: auto; }
-      #testimonial .testimonial-container .testimonial-img img {
-        border-radius: 50%; }
-    #testimonial .testimonial-container .testimonial-comment {
-      text-align: center;
-      padding: 20px 0;
-      width: 80%;
-      margin: auto;
-      height: 200px;
-      line-height: 1.8rem; }
-    #testimonial .testimonial-container .testimonial-bio {
-      text-align: center;
-      padding: 20px 0; }
-    #testimonial .testimonial-container .swiper-container {
-      width: 100%;
-      height: 100%; }
-
-#newsLetter {
-  position: relative;
-  color: #957b56;
-  padding: 100px 0; }
-  #newsLetter .newsletter-img-1, #newsLetter .newsletter-img-2 {
-    position: absolute; }
-  #newsLetter .newsletter-img-1 {
-    top: 30%;
-    left: 0; }
-  #newsLetter .newsletter-img-2 {
-    top: 30%;
-    right: 0; }
-  #newsLetter .subscribe-input {
-    border-radius: 100px 0 0 100px;
-    background-image: url("../images/email-logo.png");
-    background-repeat: no-repeat;
-    background-position: center left;
-    background-size: 40px;
-    padding-left: 70px;
-    background-position-x: 3%; }
-  #newsLetter button {
-    border-radius: 0 100px 100px 0; }
-
-#map {
-  width: 100vw;
-  height: 80vh; }

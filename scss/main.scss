@@ -1,6 +1,7 @@
 // import partials
 @import 'config';
 @import 'header';
+@import 'others';
 @import 'footer';
 @import 'mobile';
 
@@ -19,161 +20,13 @@ body{
     font-family: 'Nunito', Helvetica , Arial , sans-serif;
 }
 
-
-
-#our-services{
-    padding-top: 100px;
-    background: url('../images/small-section-arrow.png')no-repeat center top;
-
-    .card{
-        background: none;
-
-        .card-img-top {
-            width: 100%;
-            height: 25vw;
-            object-fit: cover;
-
-            
-        }
-
-        a{
-            &:hover{
-                text-decoration: none;
-            }
-        }
-
-        h3{
-            color: $white-clr;
-
-            &:hover{
-                color: $secondary-clr;
-                text-decoration: none;
-                @include easeOut(0.5s);
-            }
-        }
-    }
-}
-
-
 .section-title{
     padding-bottom: 20px;
     background: url('../images/section-title.png') no-repeat center bottom;
 }
-
-
-#gift-services{
-    .card{
-        background: transparent;
-    }
-}
-
-
 
 .nav-affix-bg{
     width: 20px;
     height: 20px;
     margin: auto;
 }
-
-
-
-#coctail-services{
-    padding: 50px 0;
-    color: $primary-clr;
-    background: #f2f2f2;
-    .card{
-        background: none;
-        border: none;
-        margin-bottom: 30px;
-    }
-}
-
-
-
-
-
-
-
-
-
-// testimonial section
-#testimonial{
-    padding: 100px 0;
-    color: $white-clr;
-
-    .testimonial-container{
-        text-align: center;
-
-        .testimonial-img{
-            width: 100px;
-            margin: auto;
-    
-            img{
-                border-radius: 50%;
-            }
-        }
-        .testimonial-comment{
-            text-align: center;
-            padding: 20px 0;
-            width: 80%;
-            margin: auto;
-            height: 200px;
-            line-height: 1.8rem;
-        }
-        .testimonial-bio{
-            text-align: center;
-            padding: 20px 0;
-        }
-    
-    
-        .swiper-container {
-            width: 100%;
-            height: 100%;
-        }
-    }
-}
-
-
-
-// newsletter section
-#newsLetter{
-    position: relative;
-    color: $secondary-clr;
-    padding: 100px 0;
-
-    .newsletter-img-1,.newsletter-img-2{
-        position: absolute;
-    }
-    .newsletter-img-1{
-        top: 30%;
-        left: 0;
-    }
-    .newsletter-img-2{
-        top: 30%;
-        right: 0;
-    }
-
-    .subscribe-input{
-        border-radius: 100px 0 0 100px;
-        background-image: url('../images/email-logo.png');
-        background-repeat: no-repeat;
-        background-position: center left;
-        background-size: 40px;
-        padding-left: 70px;
-        background-position-x: 3%;
-    }
-
-    button{
-        border-radius: 0 100px 100px 0;
-    }
-}
-
-
-
-
-// map section
-#map{
-    width: 100vw;
-    height: 80vh;
-}
-
