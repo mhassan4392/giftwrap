@@ -43,6 +43,6 @@ $secondary-clr: #957b56;
 // Xtra large media query
 @mixin mediaXl {
     @media screen and(min-width:1171px) {
-        @content    ;    
+        @content;    
     }
 }

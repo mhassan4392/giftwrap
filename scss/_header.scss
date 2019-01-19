@@ -49,6 +49,7 @@ header{
             bottom: 0;
             z-index: 99;
             width: 100%;
+            @include easeOut(0.5s);
         }
         &.sticky {
             position: fixed;
@@ -58,6 +59,7 @@ header{
             z-index: 100;
             background: url('../images/nav-affix-bg.jpg') no-repeat;
             background-size: cover;
+            @include easeOut(0.5s);
             
           }
           
@@ -269,8 +271,10 @@ header{
     padding: 7px 18px; /* Some padding */
     border-radius: 50%; /* Rounded corners */
     font-size: 22px; /* Increase font size */
+    @include easeOut(0.5s);
   }
   
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
+    @include easeOut(0.5s);
   }
