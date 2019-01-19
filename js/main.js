@@ -29,15 +29,27 @@ var sticky = topnavbar.offsetTop;
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset > sticky + 66) {
-    navbar.classList.add("sticky")
-    navbar.classList.remove("not-sticky")
+    navbar.classList.add("sticky");
+    navbar.classList.remove("not-sticky");
+    document.getElementById("myBtn").style.display = "block";
   } else {
     navbar.classList.remove("sticky");
     navbar.classList.add("not-sticky");
+    document.getElementById("myBtn").style.display = "none";
   }
+
 }
 
+// When the user scrolls down 20px from the top of the document, show the button
+// window.onscroll = function() {topscrollFunction()};
 
+// function topscrollFunction() {
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//     document.getElementById("myBtn").style.display = "block";
+//   } else {
+//     document.getElementById("myBtn").style.display = "none";
+//   }
+// }
 
 // scroll to top btn function
 function topFunction() {
