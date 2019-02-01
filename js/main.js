@@ -76,8 +76,6 @@ if(closeSearchBtn){
     });
 }
 
-
-
 function initMap(){
   // Map options
   var options = {
