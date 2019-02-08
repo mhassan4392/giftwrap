@@ -16,8 +16,77 @@ var swiper = new Swiper('.swiper-container', {
     },
   });
 
+
+//showcase slider
+
+let sliderImages = document.querySelectorAll(".slide");
+
+if(sliderImages){
+  let arrowLeft = document.querySelector("#left-arrow"),
+  arrowRight = document.querySelector("#right-arrow"),
+  current = 0;
+// Clear all images
+  function reset() {
+    for (let i = 0; i < sliderImages.length; i++) {
+      sliderImages[i].style.display = "none";
+    }
+}
+
+// Init slider
+function startSlide() {
+  reset();
+  if(sliderImages[0]){
+    sliderImages[0].style.display = "block";
+  }
+}
+
+if(arrowLeft){
+  arrowLeft.addEventListener('click', slideLeft);
+}
+if(arrowRight){
+  arrowRight.addEventListener('click', slideRight);
+}
+
+// Show prev
+function slideLeft() {
+  reset();
+  current--;
+
+  if(current < 0){
+    current = sliderImages.length - 1;
+}
+  sliderImages[current].style.display = "block";
+  
+}
+
+// Show next
+function slideRight() {
+  reset();
+  current++;
+  if(current == sliderImages.length){
+    current = 0;
+  }
+  if(sliderImages[current]){
+    sliderImages[current].style.display = "block";
+  }
+
+  
+}
+ function slides() {
+    if (current === sliderImages.length - 1) {
+      current = -1;
+    }
+    slideRight();
+  };
+
+startSlide();
+
+setInterval(slides, 15000);
+
+}
+
 // When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
+
 
 // Get the navbar
 var navbar = document.getElementById("top-navbar");
@@ -26,9 +95,12 @@ var topnavbar = document.getElementById("sticky-navbar");
 // Get the offset position of the navbar
 var sticky = topnavbar.offsetTop;
 
+if(navbar){
+  window.onscroll = function() {myFunction()};
+}
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-  if (window.pageYOffset > sticky + 66) {
+  if (window.pageYOffset >= sticky + 50) {
     navbar.classList.add("sticky");
     navbar.classList.remove("not-sticky");
     document.getElementById("myBtn").style.display = "block";

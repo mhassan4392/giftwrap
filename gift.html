@@ -72,22 +72,41 @@
 
           <!-- Showcase -->
           <section id="showcase" class="gift-showcase">
-            <div class="swiper-container">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide slide-1">
-                </div>
-                <div class="swiper-slide slide-2"></div>
-                <div class="swiper-slide slide-3"></div>
-                <div class="swiper-slide slide-4"></div>
-              </div>
-              <!-- Add Arrows -->
-              <div class="swiper-button-next">
-                <i class="fa fa-angle-right"></i>
-              </div>
-              <div class="swiper-button-prev">
+            <div class="wrap">
+              <!-- <div id="arrow-left" class="arrow"></div> -->
+              <div id="left-arrow" class="arrow">
                 <i class="fa fa-angle-left"></i>
               </div>
-            </div>
+             <div id="slider">
+               <div class="slide slide1 animated fadeIn">
+                 <div class="slide-content">
+                   
+                 </div>
+               </div>
+               <div class="slide slide2 animated fadeIn">
+                 <div class="slide-content">
+                   
+                 </div>
+               </div>
+
+               <div class="slide slide3 animated fadeIn">
+                <div class="slide-content">
+                  
+                </div>
+              </div>
+
+              <div class="slide slide4 animated fadeIn">
+                <div class="slide-content">
+                  
+                </div>
+              </div>
+               
+             </div>
+             <!-- <div id="arrow-right" class="arrow"></div> -->
+             <div id="right-arrow" class="arrow">
+                <i class="fa fa-angle-right"></i>
+              </div>
+           </div>
             <nav id="top-navbar" class="navbar affix-bg navbar-expand-md navbar-light not-sticky" data-toggle="sticky-onscroll">
               <div class="container">
                   <a href="#" class="navbar-brand p-2"><h3 class="text-white">GiftWrapper</h3></a>
@@ -124,8 +143,8 @@
               </div>
           </nav>
           <!-- <section id="nav-affix-bg">
-            <img src="images/small-section-arrow.png" class="mx-auto" alt="">
-          </section> -->
+            <img src="images/small-section-arrow.png" class="mx-auto" alt=""> -->
+          </section> 
           <section id="sticky-navbar"></section>
           </section>
           <!-- Showcase End -->
@@ -153,7 +172,7 @@
                         <div class="card-body">
                             <h4>Gift Wrapping</h4>
                           <p>With our passion, expertise and access to high quality wrapping materials such as papers, luxurious ribbons and bows, Dbay gift wrapping can transform an ordinary gift and make it extraordinary.</p>
-                          <a href="gift.html" class="btn btn-primary">Read More</a>
+                          
                         </div>
                       </div>
                     </div>
@@ -166,7 +185,7 @@
                             <div class="card-body">
                                 <h4>Gift Selection</h4>
                             <p>When you are running out of idea or time, DBay gift wrapping can select for you a tasteful, classy gift for family, employees, corporate clients, friends, etc.</p>
-                            <a href="gift.html" class="btn btn-primary">Read More</a>
+                            
                             </div>
                         </div>
                     </div>
@@ -179,7 +198,7 @@
                             <div class="card-body">
                                 <h4>Pickup & Delivery</h4>
                             <p>We offer a delivery service for those who need a little extra help in getting everything done on time.</p>
-                            <a href="gift.html" class="btn btn-primary">Read More</a>
+                            
                             </div>
                         </div>
                     </div>
@@ -209,15 +228,6 @@
                       </div>
                     </div>
     
-                    <!-- <div class="col-md-4">
-                      <div class="card">
-                        <h2 class="text-center">Weddings</h2>
-                        <p class="text-center">
-                          Brides have so many details to manage as they prepare for their wedding. Let Gifted Wraps remove the stress of wrapping for those special people who've made your day wonderful. Groomsmen, bridesmaids and even parents of the bride and groom will feel as special as the happy couple with a beautifully wrapped token of appreciation.
-                        </p>
-                      </div>
-                    </div> -->
-    
                     <div class="col-md-6">
                       <div class="card">
                         <h2 class="text-center">Corporate Gifting</h2>
@@ -227,232 +237,57 @@
                       </div>
                     </div>
                   </div>
-    
-    
-                  <!-- <div class="row my-5">
-                    <div class="col-md-8 section-title mx-auto">
-                      <h2 class="text-center">Wrapping Options</h2>
+
+                  <div class="row">
+                    <div class="col-md-8 mx-auto text-center">
+                      <p>Also , We set up our mobile wrapping center at your location at agreed rate</p>
                     </div>
                   </div>
+
+                  <div class="row">
+                    <div class="col-md-8 mt-5 mb-2 section-title mx-auto">
+                      <h1 class="text-center">Place Your Order</h1>
+                    </div>
+                  </div>
+
                   <div class="row">
                     <div class="col-md-8 mx-auto">
-                      <p class="text-center">
-                        Giving a beautifully wrapped gift makes a huge statement, it says, “You’re worth it, you’re appreciated, you’re loved!” 
-                        To make your gift as memorable as possible we have three wrapping options to suit any style or budget.
-                      </p>
-                    </div>
-                  </div> -->
-    
-                  <!-- <div class="row my-5">
-                    <div class="col-md-4">
-                      <div class="card">
-                        <h2 class="text-center">The Perfect Wrap</h2>
-                        <p class="text-center">
-                          When you want to express your appreciation, choose Gifted Wraps Perfect option. Using quality paper we will produce a beautifully wrapped package, accented with a matching bow and finished off with coordinating curling ribbon. We wrap your gift to perfection and ensure your gift becomes a classically beautiful presentation your recipient will admire.
-                        </p>
-                        <div class="pricing text-center">
-                          <p>Pricing</p>
-                          <p>Small Packages* = $8.50</p>
-                          <p>Medium Packages* = $10.00</p>
-                          <p>Large Packages* = $12.00</p>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="text-center mt-2">
+                            <img src="images/order.png" class="img-fluid w-50" alt="">
+                          </div>
+                          <div class="text-center">
+                            <a href="gift-form.html" class="btn btn-primary my-3">Place Order</a>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mx-auto">
+                          <div class="text-center mt-2">
+                            <img src="images/money.png" class="img-fluid w-50" alt="">
+                          </div>
+                          <div class="text-center my-3">
+                            Pricing Starts from TZS 80,000
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="text-center mt-2">
+                            <img src="images/contact.png" class="img-fluid w-50" alt="">
+                          </div>
+                          <div class="text-center">
+                            <a href="contact.html" class="btn btn-primary my-3">Contact us</a>
+                          </div>
                         </div>
                       </div>
                     </div>
-    
-                    <div class="col-md-4">
-                      <div class="card">
-                        <h2 class="text-center">The Exquisite Wrap</h2>
-                        <p class="text-center">
-                          Show your loves ones, friends and colleagues you care with an Exquisitely wrapped gift. We surround your gift with high quality paper and accessorize it with coordinating elegant ribbon and a hand crafted bow. Our Exquisite collection turns your gift into a masterpiece.
-                        </p>
-                        <div class="pricing text-center">
-                          <p>Pricing</p>
-                          <p>Small Packages* = $8.50</p>
-                          <p>Medium Packages* = $10.00</p>
-                          <p>Large Packages* = $12.00</p>
-                        </div>
-                      </div>
-                    </div>
-    
-                    <div class="col-md-4">
-                      <div class="card">
-                        <h2 class="text-center">The Extraordinary Wrap</h2>
-                        <p class="text-center">
-                          When you really need to make a statement make sure your gift is Extraordinary. Using premium quality wrapping paper we meticulously wrap your gift to ensure there is no visible adhesive. Topped with a beautiful luxurious ribbon and hand crafted bow your gift presentation is flawless. The personalized details of our Extraordinary collection ensure your gift presentation is a masterpiece to be admired.
-                        </p>
-                        <div class="pricing text-center">
-                          <p>Pricing</p>
-                          <p>Small Packages* = $8.50</p>
-                          <p>Medium Packages* = $10.00</p>
-                          <p>Large Packages* = $12.00</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>-->
-                </div>
-
-              <!-- <div class="row my-3">
-                  <div class="col-md-6 mx-auto text-center">
-                    <h2>Multi Package Wrapping</h2>
-                    <p>Whether you’ve got one special gift or multiple gifts, Gifted Wraps can ensure 
-                        that each and every one is turned into something spectacular.
-                        Multiple package wrapping discounts may be available. Contact us today for a quote.</p>
                   </div>
-              </div>
-
-              <div class="row my-3">
-                <div class="col-md-6 mx-auto text-center">
-                    <h2>*Our size/box guidelines</h2>
-                    <p>If you require a box, we can supply one for $1.00 – $2.00 depending on the size.
-                            Small packages are considered perfume bottles, a phone or jewellery.
-                            Medium packages are considered small purse, shirt or shoe box.
-                            Large packages are considered large purse, jacket, briefcase or boots.
-                            Extra large or odd shaped packages are approximately 50% additional cost.</p>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row my-5">
-                    <div class="col-md-10 my-3 section-title mx-auto">
-                        <h3 class="text-center">Bring A Little Magic To Every Gift Giving Occasion With Gifted Wraps</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 mx-auto">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <ul>
-                                    <li>Birthdays</li>
-                                    <li>Christmas</li>
-                                    <li>Easter</li>
-                                    <li>Valentine’s Day</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3">
-                                <ul>
-                                    <li>Weddings</li>
-                                    <li>New Baby Arrival</li>
-                                    <li>Showers</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3">
-                                <ul>
-                                    <li>Graduations</li>
-                                    <li>Retirements</li>
-                                    <li>Just because</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3">
-                                <ul>
-                                    <li>Mother’s Day</li>
-                                    <li>Father’s Day</li>
-                                    <li>Anniversaries</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- <div class="row mt-5">
-                    <div class="col-md-4 my-3 section-title mx-auto">
-                        <h1 class="text-center">Gift Selection</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10 mx-auto">
-                        <img src="images/gift-section-main-image2.jpg" class="img-fluid" alt="gift section main image">
-                    </div>
                 </div>
 
-                <div class="row my-4">
-                    <div class="col-md-10 mx-auto text-center">
-                        <p>
-                                Gifted Wraps takes the guess work out of gift giving. When you’re crunched for time, Gifted Wraps is up for the challenge. With your direction we can find and purchase a gift on your behalf that will make their eyes light up. Our taste is impeccable and we will treat choosing a gift for your recipient with the same care we’d give to selecting a gift for our own loved one.
-                        </p>
-                        <h3>Corporate</h3>
-                        <p>
-                                Businesses take pride in their employees, clients, partners, and industry relationships. When it’s time to honour these special people you want a gift that not only expresses your appreciation but is also tasteful and beautifully presented. With your input we can purchase a gift on your behalf that represents you and fits in with your company.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-10 my-3 section-title mx-auto">
-                        <h3 class="text-center">Rates</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10 mx-auto text-center">
-                        <p>Estimate provided upon request</p>
-                    </div>
-                </div>
-
-
-
-                <div class="row mt-5">
-                    <div class="col-md-4 my-3 section-title mx-auto">
-                        <h1 class="text-center">Pickup & Delivery</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10 mx-auto">
-                        <img src="images/gift-section-main-image3.jpg" class="img-fluid" alt="gift section main image">
-                    </div>
-                </div>
-
-                <div class="row mt-5">
-                    <div class="col-md-10 my-3 text-center mx-auto">
-                        <p>When time is short and deadlines loom, trust Gifted Wraps to help you accomplish your gift giving tasks. We offer a number of convenient options including pickup of your unwrapped gift, and delivery of your beautifully wrapped gift back to you.</p>
-                    </div>
-                </div>
-
-                <div class="row mt-5">
-                    <div class="col-md-10 my-3 section-title mx-auto">
-                        <h3 class="text-center">Rates</h3>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-10 mx-auto text-center">
-                        <p class="mb-0">Pick up of your gift $ 10.00</p>
-                        <p>Delivery of your beautifully wrapped gift $ 10.00</p>
-                        <p>Rates are based on pickup and delivery within city limits. Extra fees may apply for extended travel.</p>
-                    </div>
-                </div>
-            </div> -->
+              
             
 
             </div>
           </section>
           <!-- Gift Services End -->
-
-          <!-- Aboutus -->
-          <section id="gift-aboutus" class="my-5">
-              <div class="container">
-                  <div class="row">
-                    <div class="col-md-4 my-3 section-title mx-auto">
-                        <h1 class="text-center">About Us</h1>
-                    </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-md-10 mx-auto text-center">
-                          <p>Creativity is making the complicated look simple</p>
-                      </div>
-                  </div>
-
-                  <div class="row mt-5">
-                      <div class="col-md-10 mx-auto text-center">
-                          <h2>Ellen Arruda</h2>
-                          <p>Senior Designer</p>
-                          <p>Fueled by her passion for design and colour coordination, Gifted Wraps creator, Ellen Arruda, calls on her vast experience in the packaging business to bring the best products and selection to her clients. With years of experience in the industry, Ellen is on top of packaging trends, options available in the market place, and accessories that add just the right amount of flair. Successfully blending her creativity with business sense, Gifted Wraps was launched to produce beautiful works of art in the form of wrapped gifts.</p>
-                          <p>Wrapping a gift beautifully has always been one of her favourite pastimes and carefully selecting the perfect paper and ribbons gives Ellen as much pleasure as the recipient feels in discovering the contents inside her creation. It is Gifted Wraps' goal to ensure that each recipient of a specially wrapped package feels the effort that's gone into not only choosing the gift but in presenting it beautifully. Not everyone has the time, patience or resources to present exquisitely wrapped gifts, that's where Gifted Wraps comes in.</p>
-                          <p>"Presenting a beautifully wrapped gift to someone shows them just how much you care, and presentation is everything, it creates the excitement! Just like when you were a child and given a present, I wanted to know what was inside the lovely package but I wanted to savour the moment." ~ Ellen Arruda</p>
-                      </div>
-                  </div>
-              </div>
-
-          </section>
-          <!-- Aboutus End -->
 
           <!-- Gallery -->
           <section id="gift-gallery" class="my-5">
@@ -464,19 +299,20 @@
                     </div>
                     <div class="row">
                         <div class="col-md-10 mx-auto text-center">
-                            <p>Nearly too beautiful to unwrap, yours could be one of the best wrapped packages at any event</p>
+                            <p>We are pleased to be part of your gift sharing to your receiptients.</p>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-10 mx-auto text-center">
-                            <p>We are always pleased to be a part of your gift giving traditions. Whether it’s Christmas or birthday gifts, a little box you intend to get on one knee with, or gifts to show your appreciation for employees and clients, Gifted Wraps brings the wow factor to any occasion. Bring us your gifts and let us turn them into masterpieces as beautiful as these. Each of the below gifts showcases the attention to detail we put into every package.</p>
+                            <p>Whether it is holiday season, birthday, wedding, spicing up or any occasion, Dbay Gifts can guarantee you a smile in return from your loved ones</p>
+                            <p>Please engage us and see how our passion and creativity can present you in your absence.</p>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-10 mx-auto text-center">
-                            <p>Click on any image in the three categories below to view category description, pricing and size guidelines.</p>
+                            <p>Each of below gifts will showcase attention to details we put in our work</p>
                         </div>
                     </div>
 
@@ -488,75 +324,20 @@
                         </div>
                         <div class="col-md-4 mb-4">
                             <div class="card">
-                                <img src="images/gallery-2.jpg" alt="" class="card-img-top">
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="images/gallery-3.jpg" alt="" class="card-img-top">
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="images/gallery-4.jpg" alt="" class="card-img-top">
-                            </div>
-                           
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
                                 <img src="images/gallery-5.jpg" alt="" class="card-img-top">
                             </div>
                         </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="images/gallery-6.jpg" alt="" class="card-img-top">
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="images/gallery-7.jpg" alt="" class="card-img-top">
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="images/gallery-8.jpg" alt="" class="card-img-top">
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="images/gallery-9.jpg" alt="" class="card-img-top">
-                            </div>
-                        </div>
+            
                         <div class="col-md-4 mb-4">
                             <div class="card">
                                 <img src="images/gallery-10.jpg" alt="" class="card-img-top">
                             </div>
                         </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="images/gallery-11.jpg" alt="" class="card-img-top">
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="images/gallery-12.jpg" alt="" class="card-img-top">
-                            </div>
-                            
-                        </div>
+                        
                     </div>
               </div>
           </section>
           <!-- Gallery End -->
-
-          
-
-          <!-- Testimonial -->
-          
-          <!-- Testimonial End -->
-
-          
-
-          
 
           <!-- Main Footer -->
           <footer id="main-footer">

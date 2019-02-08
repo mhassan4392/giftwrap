@@ -1,37 +1,37 @@
 header {
   height: 25vh; }
 
-#showcase {
+#showcase-1 {
   width: 100%;
   height: 75vh;
   position: relative; }
-  #showcase nav {
+  #showcase-1 nav {
     background: rgba(34, 34, 34, 0.5);
     padding: 0;
     border-top: 2px solid #957b56;
     border-bottom: 8px solid #957b56; }
-    #showcase nav .nav-item {
+    #showcase-1 nav .nav-item {
       padding: 0; }
-      #showcase nav .nav-item .nav-link {
+      #showcase-1 nav .nav-item .nav-link {
         color: white;
         padding: 0 20px;
         line-height: 86px;
         transition: all 0.8s ease-out; }
-        #showcase nav .nav-item .nav-link:hover {
+        #showcase-1 nav .nav-item .nav-link:hover {
           background: rgba(34, 34, 34, 0.7);
           color: #957b56;
           transition: all 0.8s ease-out; }
-        #showcase nav .nav-item .nav-link.active {
+        #showcase-1 nav .nav-item .nav-link.active {
           background: rgba(34, 34, 34, 0.7);
           color: #957b56;
           transition: all 0.8s ease-out; }
-    #showcase nav.not-sticky {
+    #showcase-1 nav.not-sticky {
       position: absolute;
       bottom: 0;
       z-index: 99;
       width: 100%;
       transition: all 0.5s ease-out; }
-    #showcase nav.sticky {
+    #showcase-1 nav.sticky {
       position: fixed;
       top: 0;
       left: 0;
@@ -40,10 +40,10 @@ header {
       background: url("../images/nav-affix-bg.jpg") no-repeat;
       background-size: cover;
       transition: all 0.5s ease-out; }
-  #showcase .swiper-container {
+  #showcase-1 .swiper-container {
     width: 100%;
     height: 100%; }
-  #showcase .swiper-slide {
+  #showcase-1 .swiper-slide {
     position: relative;
     text-align: center;
     font-size: 18px;
@@ -61,12 +61,12 @@ header {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center; }
-    #showcase .swiper-slide .swiper-slide-bg {
+    #showcase-1 .swiper-slide .swiper-slide-bg {
       position: absolute;
       width: 100%;
       height: 100%;
       background: rgba(34, 34, 34, 0.3); }
-  #showcase .swiper-button-next {
+  #showcase-1 .swiper-button-next {
     background-image: none;
     border: 2px solid rgba(149, 123, 86, 0.4);
     color: rgba(149, 123, 86, 0.4);
@@ -79,11 +79,11 @@ header {
     padding: 30px;
     font-size: 2rem;
     transition: all 0.5s ease-out; }
-    #showcase .swiper-button-next:hover {
+    #showcase-1 .swiper-button-next:hover {
       border: 2px solid #957b56;
       color: #957b56;
       transition: all 0.5s ease-out; }
-  #showcase .swiper-button-prev {
+  #showcase-1 .swiper-button-prev {
     background-image: none;
     border: 2px solid rgba(149, 123, 86, 0.4);
     color: rgba(149, 123, 86, 0.4);
@@ -98,38 +98,38 @@ header {
     padding: 30px;
     font-size: 2rem;
     transition: all 0.5s ease-out; }
-    #showcase .swiper-button-prev:hover {
+    #showcase-1 .swiper-button-prev:hover {
       border: 2px solid #957b56;
       color: #957b56;
       transition: all 0.5s ease-out; }
-  #showcase .slide-1 {
+  #showcase-1 .slide-1 {
     background: url("../images/gift-slider-1.jpg") no-repeat center center;
     background-size: cover; }
-  #showcase .slide-2 {
+  #showcase-1 .slide-2 {
     background: url("../images/coctail-slider-1.jpg") no-repeat center center;
     background-size: cover; }
-  #showcase.gift-showcase .slide-1 {
+  #showcase-1.gift-showcase .slide-1 {
     background: url("../images/gift-slider-1.jpg") no-repeat center center;
     background-size: cover; }
-  #showcase.gift-showcase .slide-2 {
+  #showcase-1.gift-showcase .slide-2 {
     background: url("../images/gift-slider-2.jpg") no-repeat center center;
     background-size: cover; }
-  #showcase.gift-showcase .slide-3 {
+  #showcase-1.gift-showcase .slide-3 {
     background: url("../images/gw-slide3.jpg") no-repeat center center;
     background-size: cover; }
-  #showcase.gift-showcase .slide-4 {
+  #showcase-1.gift-showcase .slide-4 {
     background: url("../images/gw-slide4.jpg") no-repeat center center;
     background-size: cover; }
-  #showcase.coctail-showcase .slide-1 {
+  #showcase-1.coctail-showcase .slide-1 {
     background: url("../images/coctail-slider-1.jpg") no-repeat center center;
     background-size: cover; }
-  #showcase.coctail-showcase .slide-2 {
+  #showcase-1.coctail-showcase .slide-2 {
     background: url("../images/coctail-slider-2.jpg") no-repeat center center;
     background-size: cover; }
-  #showcase.coctail-showcase .slide-3 {
+  #showcase-1.coctail-showcase .slide-3 {
     background: url("../images/coctail-slider-3.jpg") no-repeat center center;
     background-size: cover; }
-  #showcase.contact-showcase .swiper-container {
+  #showcase-1.contact-showcase .swiper-container {
     background: url("../images/phone-op.jpg") no-repeat center center;
     background-size: cover; }
 
@@ -203,6 +203,147 @@ header {
   /* Add a dark-grey background on hover */
   transition: all 0.5s ease-out; }
 
+#showcase {
+  width: 100%;
+  height: 75vh;
+  position: relative; }
+  #showcase nav {
+    background: rgba(34, 34, 34, 0.5);
+    padding: 0;
+    border-top: 2px solid #957b56;
+    border-bottom: 8px solid #957b56; }
+    #showcase nav .nav-item {
+      padding: 0; }
+      #showcase nav .nav-item .nav-link {
+        color: white;
+        padding: 0 20px;
+        line-height: 86px;
+        transition: all 0.8s ease-out; }
+        #showcase nav .nav-item .nav-link:hover {
+          background: rgba(34, 34, 34, 0.7);
+          color: #957b56;
+          transition: all 0.8s ease-out; }
+        #showcase nav .nav-item .nav-link.active {
+          background: rgba(34, 34, 34, 0.7);
+          color: #957b56;
+          transition: all 0.8s ease-out; }
+    #showcase nav.not-sticky {
+      position: absolute;
+      bottom: 0;
+      z-index: 99;
+      width: 100%;
+      transition: all 1s ease-out; }
+    #showcase nav.sticky {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100;
+      background: url("../images/nav-affix-bg.jpg") no-repeat;
+      background-size: cover;
+      transition: all 1s ease-out; }
+  #showcase #slider,
+  #showcase .wrap,
+  #showcase .slide-content {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 75vh;
+    overflow-x: hidden;
+    overflow: hidden; }
+    #showcase #slider::before,
+    #showcase .wrap::before,
+    #showcase .slide-content::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(34, 34, 34, 0.3); }
+  #showcase .wrap {
+    position: relative; }
+  #showcase .slide {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-duration: 1s; }
+  #showcase .slide1 {
+    background-image: url("../images/gift-slider-1.jpg"); }
+  #showcase .slide2 {
+    background-image: url("../images/coctail-slider-1.jpg"); }
+  #showcase .slider-header {
+    animation-delay: 1s;
+    animation-duration: 1s; }
+  #showcase .slider-text {
+    animation-delay: 1.5s;
+    animation-duration: 1s; }
+  #showcase .slider-btn {
+    animation-delay: 1.3s;
+    animation-duration: 1s; }
+  #showcase .slide-content {
+    background: rgba(34, 34, 34, 0.3);
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    color: #222222; }
+    #showcase .slide-content img {
+      animation-delay: 1.1s;
+      animation-duration: 1s; }
+  #showcase .arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: 30px;
+    background-image: none;
+    border: 2px solid rgba(149, 123, 86, 0.4);
+    color: rgba(149, 123, 86, 0.4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 30px;
+    font-size: 2rem;
+    transition: all 0.5s ease-out; }
+    #showcase .arrow:hover {
+      background: #957b56;
+      color: white;
+      border: 2px solid rgba(149, 123, 86, 0.2); }
+  #showcase #left-arrow {
+    z-index: 99;
+    left: 10px; }
+  #showcase #right-arrow {
+    right: 10px;
+    z-index: 99; }
+  #showcase.gift-showcase .slide1 {
+    background: url("../images/gift-slider-1.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.gift-showcase .slide2 {
+    background: url("../images/gift-slider-2.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.gift-showcase .slide3 {
+    background: url("../images/gw-slide3.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.gift-showcase .slide4 {
+    background: url("../images/gw-slide4.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.coctail-showcase .slide1 {
+    background: url("../images/coctail-slider-1.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.coctail-showcase .slide2 {
+    background: url("../images/coctail-slider-2.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.coctail-showcase .slide3 {
+    background: url("../images/coctail-slider-3.jpg") no-repeat center center;
+    background-size: cover; }
+  #showcase.contact-showcase .slide1 {
+    background: url("../images/phone-op.jpg") no-repeat center center;
+    background-size: cover; }
+
 .card {
   background: none;
   border: none !important; }
@@ -213,6 +354,8 @@ header {
     width: 100%;
     height: 25vw;
     object-fit: cover; }
+  #our-services.front-services .card h3 {
+    min-height: 80px; }
   #our-services .card {
     background: none; }
     #our-services .card a:hover {
@@ -229,8 +372,7 @@ header {
 
 #coctail-services {
   padding: 50px 0;
-  color: #222222;
-  background: #f2f2f2; }
+  color: #ddd; }
   #coctail-services .card {
     background: none;
     border: none;
@@ -302,6 +444,27 @@ header {
     font-size: 1.2rem;
     transition: all 0.5s ease-out;
     width: 20px; }
+
+.about-services {
+  margin-top: 100px; }
+  .about-services .card .card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover; }
+  .about-services .card a {
+    color: #ddd; }
+    .about-services .card a:hover {
+      text-decoration: none;
+      transition: all 0.5s ease-out; }
+  .about-services .card h3 {
+    min-height: 80px;
+    color: #ddd; }
+    .about-services .card h3:hover {
+      color: #957b56;
+      transition: all 0.5s ease-out; }
+
+#about-gallery .card img {
+  height: 250px; }
 
 #main-footer {
   position: relative;
