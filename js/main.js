@@ -90,7 +90,7 @@ setInterval(slides, 15000);
 
 // Get the navbar
 var navbar = document.getElementById("top-navbar");
-var topnavbar = document.getElementById("sticky-navbar");
+var topnavbar = document.getElementById("top-navbar");
 
 // Get the offset position of the navbar
 var sticky = topnavbar.offsetTop;
@@ -100,7 +100,7 @@ if(navbar){
 }
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-  if (window.pageYOffset >= sticky + 50) {
+  if (window.pageYOffset >= sticky + 162) {
     navbar.classList.add("sticky");
     navbar.classList.remove("not-sticky");
     document.getElementById("myBtn").style.display = "block";
