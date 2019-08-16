@@ -132,6 +132,9 @@ header {
   #showcase-1.contact-showcase .swiper-container {
     background: url("../images/phone-op.jpg") no-repeat center center;
     background-size: cover; }
+  #showcase-1.party-showcase .swiper-container {
+    background: url("../images/coctail-slider-1.jpg") no-repeat center center;
+    background-size: cover; }
 
 .search-menu {
   position: fixed;
@@ -344,6 +347,10 @@ header {
     background: url("../images/phone-op.jpg") no-repeat center center;
     background-size: cover; }
 
+.stick {
+  position: sticky;
+  top: 0; }
+
 .card {
   background: none;
   border: none !important; }
@@ -465,6 +472,23 @@ header {
 
 #about-gallery .card img {
   height: 250px; }
+
+.party-page .sidebar-list-group h5 {
+  border-bottom: 1px dashed white;
+  margin-bottom: 15px;
+  padding: 5px; }
+
+.party-page .sidebar-list-group li {
+  line-height: 25px;
+  padding-left: 10px; }
+
+.party-page .sidebar-list-group a {
+  color: white;
+  transition: all 0.5s ease-out; }
+  .party-page .sidebar-list-group a:hover {
+    color: #957b56;
+    padding-left: 5px;
+    transition: all 0.5s ease-out; }
 
 #main-footer {
   position: relative;

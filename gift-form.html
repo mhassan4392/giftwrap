@@ -25,7 +25,7 @@
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="css/main.css">
 
-    <title>GiftWrapper</title>
+    <title>Dbaytz</title>
   </head>
   <body>
       <!-- Page Content -->
@@ -51,8 +51,10 @@
                   <div class="col-sm-12 mx-auto">
                     <ul class="menu-ul pt-5 mt-5">
                       <li><a href="index.html">HOME</a></li>
-                      <li><a href="gift.html">GIFT WRAPPING SERVICE</a></li>
-                      <li><a href="coctail.html">THE COCTAIL SERVICE</a></li>
+                      <li><a href="about.html">ABOUT</a></li>
+                      <li><a href="gift.html">Gift Wrapping</a></li>
+                      <li><a href="coctail.html">Mobile Mocktail/Cocktail Experience</a></li>
+                      <li><a href="party.html">Party & Gift Items, Trophies & Stages</a></li>
                       <li><a href="contact.html">CONTACT</a></li>
                       <!-- <li><a href="signin.html">SignIn</a></li> -->
                     </ul>
@@ -88,8 +90,8 @@
                   </div>
                   <div class="row">
                       <div class="col-md-8 mx-auto text-center">
-                          <p>Pick up of your gift $ 10.00</p>
-                          <p>Delivery of your beautifully wrapped gift $ 10.00</p>
+                          <p>Wrapping your gift ranges from Tzs 18,000 to 40,000</p>
+                          <p>Delivery within Dar city ranges from Tzs 5,000 to 15,000</p>
                           <p>Rates are based on pickup and delivery within city limits. Extra fees may apply for extended travel.</p>
                       </div>
                   </div>
@@ -107,7 +109,7 @@
                               <div class="col-6 mb-3 text-right">
                                 <div class="form-group">
                                   <label for="call-time"></label>
-                                  <div for="call-time">Small Package *$10</div>
+                                  <div for="call-time">Small Package * Tshs 60,000</div>
                                   <!-- <input type="text" class="form-control"> -->
                                 </div>
                               </div>
@@ -123,7 +125,7 @@
                               <div class="col-6 mb-3 text-right">
                                 <div class="form-group">
                                   <label for=""></label>
-                                  <div for="">Medium Package *$20</div>
+                                  <div for="">Medium Package * Tshs 90,000</div>
                                   <!-- <input type="text" class="form-control"> -->
                                 </div>
                               </div>
@@ -139,7 +141,39 @@
                               <div class="col-6 mb-3 text-right">
                                 <div class="form-group">
                                   <label for=""></label>
-                                  <div>Large Package *$30</div>
+                                  <div>Large Package * Tshs. 130,000</div>
+                                  <!-- <input type="text" class="form-control"> -->
+                                </div>
+                              </div>
+                              <div class="col-6 mb-3">
+                                  <div class="form-group w-50">
+                                    <label for="event-date"></label>
+                                    <input type="number" class="form-control">
+                                  </div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row d-flex align-items-center">
+                              <div class="col-6 mb-3 text-right">
+                                <div class="form-group">
+                                  <label for=""></label>
+                                  <div>Fruit Basket * Tshs. 55,000</div>
+                                  <!-- <input type="text" class="form-control"> -->
+                                </div>
+                              </div>
+                              <div class="col-6 mb-3">
+                                  <div class="form-group w-50">
+                                    <label for="event-date"></label>
+                                    <input type="number" class="form-control">
+                                  </div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row d-flex align-items-center">
+                              <div class="col-6 mb-3 text-right">
+                                <div class="form-group">
+                                  <label for=""></label>
+                                  <div> Food Hamper * Tshs. 55,000</div>
                                   <!-- <input type="text" class="form-control"> -->
                                 </div>
                               </div>
@@ -155,14 +189,14 @@
                               <div class="col-md-6">
                                 <div class="form-group">
                                   <input type="checkbox" name="" id="pickup">
-                                  Gift Pickup *$10
+                                  Gift Pickup * Tshs 0
                                 </div>
                               </div>
 
                               <div class="col-md-6">
                                 <div class="form-group">
                                   <input type="checkbox" name="" id="delivery">
-                                  Gift Delivery *$10
+                                  Gift Delivery * Tshs 0
                                 </div>
                               </div>
                             </div>
@@ -170,7 +204,7 @@
                               <div class="col-md-10 mx-auto my-3">
                                 <div>
                                   <b>TOTAL</b>
-                                  <span class="float-right">$0</span>
+                                  <span class="float-right">$ Tshs 0</span>
                                 </div>
                               </div>
                             </div>
@@ -214,7 +248,7 @@
                             <div class="form-row">
                                 <div class="col-md-6 mb-3">
                                   <div class="form-group">
-                                    <label for="firstname">State</label>
+                                    <label for="firstname">Package Details</label>
                                     <select name="" class="form-control" id="">
                                       <option value="">Wedding</option>
                                       <option value="">Send off</option>
@@ -226,22 +260,24 @@
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <div class="form-group">
-                                      <label for="event-location">Zip Code</label>
-                                      <input type="number" class="form-control">
+                                      <label for="event-location">Tanzania Regions</label>
+                                      <select name="" class="form-control" id="">
+                                        <option value="">Dar es Salaam</option>
+                                        <option value="">Morogoro</option>
+                                        <option value="">Arusha</option>
+                                        <option value="">Mwanza</option>
+                                      </select>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="form-group">
-                              <label for="">Pickup Adress</label>
-                              <textarea id="pickup-address" class="form-control"></textarea>
-                            </div>
+                            
                             <div class="form-group">
                               <label for="">Delivery Address</label>
                               <textarea name="" id="delivery-address" class="form-control"></textarea>
                             </div>
                             
-                            <a href="checkout.html" class="btn btn-dark btn-block  my-5">Checkout</a>
+                            <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-dark btn-block checkout-btn  my-5">Checkout</button>
                       </form>
                     </div>
                   </div>
@@ -258,6 +294,31 @@
               </script>
           </section>
           <!-- form end -->
+
+
+          <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="text-dark text-center" id="exampleModalLabel">CONTACT US BEFORE PAYING FOR VERIFICATION</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="" class="text-dark">Enter Your Email</label>
+          <input type="email" placeholder="Enter Email" class="form-control">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href="checkout.html" class="btn btn-primary">Checkout</a>
+      </div>
+    </div>
+  </div>
+</div>
 
           <!-- Main Footer -->
           <footer id="main-footer">
@@ -296,7 +357,7 @@
                         <a href="#">Gifts Wrap Service</a>
                       </li>
                       <li>
-                        <a href="#">The Coctail Service</a>
+                        <a href="#">Mobile Mocktail/Cockail Experience</a>
                       </li>
                     </ul>
                   </div>
@@ -305,13 +366,13 @@
                       <h4 class="footer-list-header">Address</h4>
                       <ul class="footer-list footer-address">
                         <li class="d-flex align-items-center">
-                          <i class="fa fa-street-view"></i><div>556/L farid town Sahiwal</div>
+                          <i class="fa fa-street-view"></i><div> Plot 27 , Victoria Arena</div>
                         </li>
                         <li class="d-flex align-items-center">
-                          <i class="fa fa-envelope"></i><div>giftedwraps@test.com</div>
+                          <i class="fa fa-envelope"></i><div> sales@Dbaytz.com</div>
                         </li>
                         <li class="d-flex align-items-center">
-                          <i class="fa fa-phone"></i><div>111 2222 333</div>
+                          <i class="fa fa-phone"></i><div> 255 755 447 518</div>
                         </li>
                       </ul>
                     </div>
@@ -323,7 +384,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-6 copyright-text">
-                      Copyrights By giftedwraps - 2019. All Rights Reserved.
+                      Copyrights By Dbaytz - 2019. All Rights Reserved.
                   </div>
                   <div class="col-md-6 footer-icons">
                     <a href="#"><i class="fa fa-facebook"></i></a>
